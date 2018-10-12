@@ -1,0 +1,64 @@
+.fon {
+    height: 60vh;
+    background: url('img/background.jpg');
+    background-size: cover;
+}
+
+#Element1{
+    color: white;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+span:nth-child(1){
+    font-weight: 800;
+    font-size: 200%;
+ 
+ }
+ 
+.nav-link {
+    color: #fff !important;
+}
+
+#Element4{
+    color: white;
+    font-weight: 300;
+    font-size: 110%;
+}
+
+#Element5{
+    color: white;
+    font-weight: 600;
+    font-size: 300%;
+}
+
+
+.Leson{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.Leson img{
+    margin: 30px 10px 5px 10px;
+    height: 180px;
+    width: 250px;
+    border: 1px solid lightgrey;
+    transition: all 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+p{
+    font-weight: 700;
+    font-size: 150%;
+} 
+
+.Leson img:hover {
+    height: 230px;
+    width: 300px;
+}
