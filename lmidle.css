@@ -314,13 +314,11 @@ p {
 	display:inline-block;
 	margin: 10px;
 	color: #000;
-	/*background:#fff;---*/
 	background: rgba(255,255,255, 0.5);/*цвет кнопки не ативной*/
 	-webkit-border-radius: 10px;
             border-radius: 10px;
 }
 #menu li.active{
-	/*background:#777;*/
 	background: rgba(0,0,0, 0.5);
 	color: #fff;
 }
@@ -464,10 +462,9 @@ p {
 }
 
 #section0{
-     background: url('img/22.png');
+    background: url('img/22.png');
     background-size: cover;
     display: flex;
-	
 }
 
 #section0 h1{
@@ -510,7 +507,7 @@ p {
     background: url('img/13.png');
     width: 400px;
     height: 70vh;
-   background-size: cover;
+    background-size: cover;
     display: flex;
 }
 
@@ -539,7 +536,6 @@ p {
     color: #333;
     font-weight: 700;
     font-size: 100%;
-
 }
 
 #slide1 .Task img{
@@ -559,7 +555,7 @@ p {
     background: url('img/9.jpg');
     width: 400px;
     height: 70vh;
-   background-size: cover;
+    background-size: cover;
     display: flex;
 }
 
@@ -583,9 +579,9 @@ p {
     color:lightgrey;
     font-size:1.5em;
     padding: 3% 0 0 0;
- }
+}
 
- .Task2{
+.Task2{
     display: flex;
     vertical-align: top;
     text-align: center;
@@ -613,7 +609,7 @@ p {
     background: url('img/16.jpg');
     width: 400px;
     height: 65vh;
-   background-size: cover;
+    background-size: cover;
     display: flex;
 }
 
@@ -659,7 +655,6 @@ p {
     font-weight: 400;
     font-size:450%;
     padding: 4.5vh 5vh 0vh 5vh; 
-
 }
 
 .Task4{
@@ -667,13 +662,11 @@ p {
     flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-    
     color: #333;
     font-weight: 700;
     font-size: 100%;
     float: right;
     margin-right: 20%;
-
 }
 
 #slide4 .Task4 img{
@@ -692,7 +685,7 @@ p {
     background: url('img/24.jpg');
     width: 100%;
     height: 100%;
-   background-size: cover;
+    background-size: cover;
     display: flex;
 }
 
@@ -726,12 +719,9 @@ p {
 }
 
 #slide5 h2{
- 
     font: 35px 'Oswald', sans-serif;
     font-weight: 300;
-    
     color: darkblue;
-    /*padding: 0 10px 0 10px;*/
     margin: 3% 3% 2% 3%; 
 }
 
@@ -740,15 +730,11 @@ p {
 }
 
 #section3 h1{
-    
-   
     font: 35px 'Roboto Slab', sans-serif;
     font-size: 500%;
     font-weight: 500;
     color: darkblue;
     margin: 5% 0 3% 0;
-    
-
 }
 
 #section3 .org{
@@ -758,7 +744,6 @@ p {
     display: flex;
     justify-content: flex-start;
     margin: 1% 0% 0% 1%;
-	
 }
 
 #section3 p{
@@ -768,6 +753,5 @@ p {
     display: flex;
     justify-content: center;
     margin: 3% 0% 1% 3%;
-	
 }
 

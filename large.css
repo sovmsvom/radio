@@ -142,8 +142,8 @@ html.fp-enabled,
 }
 #fp-nav ul,
 .fp-slidesNav ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 #fp-nav ul li,
 .fp-slidesNav ul li {
@@ -464,7 +464,7 @@ p {
 }
 
 #section0{
-     background: url('img/22.png');
+    background: url('img/22.png');
     background-size: cover;
     display: flex;
 	
@@ -508,7 +508,7 @@ p {
     background: url('img/13.png');
     width: 400px;
     height: 70vh;
-   background-size: cover;
+    background-size: cover;
     display: flex;
 }
 
@@ -519,8 +519,8 @@ p {
 	align-items: center;
     align-content: center;
     margin: 0 auto;
-    padding: 4% 0 1% 0;
-	width: 75%;
+    padding: 10% 0 15% 0;
+	width: 100%;
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700vh; 
     font-size:450%;
@@ -557,7 +557,7 @@ p {
     background: url('img/9.jpg');
     width: 400px;
     height: 70vh;
-   background-size: cover;
+    background-size: cover;
     display: flex;
 }
 
@@ -568,8 +568,8 @@ p {
 	align-items: center;
     align-content: center;
     margin: 0 auto;
-    padding: 3% 0 0 0;
-	width: 75%;
+    padding: 10% 0 10% 0;
+	width: 100%;
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700vh; 
     font-size:500%;
@@ -581,13 +581,13 @@ p {
     color:lightgrey;
     font-size:1.5em;
     padding: 3% 0 0 0;
- }
+}
 
- .Task2{
+.Task2{
     display: flex;
     vertical-align: top;
     text-align: center;
-    margin: 4em 0 0 2em;
+    margin: 2em 0 0 2em;
     justify-content: space-around;
     color: #333;
     font-weight: 700;
@@ -611,7 +611,7 @@ p {
     background: url('img/16.jpg');
     width: 400px;
     height: 70vh;
-   background-size: cover;
+    background-size: cover;
     display: flex;
 }
 
@@ -659,16 +659,13 @@ p {
 }
 
 .Task4{
-
     flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-    
     color: #333;
     font-weight: 700;
     font-size: 100%;
     float: right;
-    /*margin: 0 0 0 20vh;*/
     margin-right: 20%;
 
 }
@@ -689,7 +686,7 @@ p {
     background: url('img/24.jpg');
     width: 100%;
     height: 100%;
-   background-size: cover;
+    background-size: cover;
     display: flex;
 }
 
@@ -723,12 +720,9 @@ p {
 }
 
 #slide5 h2{
- 
     font: 35px 'Oswald', sans-serif;
     font-weight: 300;
-    
     color: darkblue;
-    /*padding: 0 10px 0 10px;*/
     margin: 5% 3% 3% 3%; 
 }
 
@@ -737,25 +731,20 @@ p {
 }
 
 #section3 h1{
-    
-   
     font: 35px 'Roboto Slab', sans-serif;
     font-size: 500%;
     font-weight: 500;
     color: darkblue;
     margin: 10% 0 10% 0;
-    
-
 }
 
 #section3 .org{
-    font: 140% 'Oswald', sans-serif;
+    font: 150% 'Oswald', sans-serif;
     font-weight: 400; 
     color: #282828;   
     display: flex;
     justify-content: flex-start;
-    margin: 1% 0% 1% 2%;
-	
+    margin: 1% 0% 1% 3%;
 }
 
 #section3 p{
@@ -765,6 +754,5 @@ p {
     display: flex;
     justify-content: center;
     margin: 5% 0% 1% 3%;
-	
 }
 

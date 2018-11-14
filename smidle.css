@@ -142,8 +142,8 @@ html.fp-enabled,
 }
 #fp-nav ul,
 .fp-slidesNav ul {
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 }
 #fp-nav ul li,
 .fp-slidesNav ul li {
@@ -314,13 +314,11 @@ p {
 	display:inline-block;
 	margin: 10px;
 	color: #000;
-	/*background:#fff;---*/
 	background: rgba(255,255,255, 0.5);/*цвет кнопки не ативной*/
 	-webkit-border-radius: 10px;
             border-radius: 10px;
 }
 #menu li.active{
-	/*background:#777;*/
 	background: rgba(0,0,0, 0.5);
 	color: #fff;
 }
@@ -379,7 +377,7 @@ p {
 	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
 	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
- }
+}
 #download a{
 	text-decoration:none;
     color: #fff;
@@ -464,10 +462,9 @@ p {
 }
 
 #section0{
-     background: url('img/22.png');
+    background: url('img/22.png');
     background-size: cover;
     display: flex;
-	
 }
 
 #section0 h1{
@@ -476,10 +473,10 @@ p {
 	justify-content: center;
 	align-items: center;
     align-content: stretch;
-    padding: 4% 0 1% 0;
+    padding: 3.5% 0 0 0;
     color: darkblue;
     font-weight: 700vh; 
-    font-size:400%;
+    font-size:375%;
     font-family: 'Roboto Slab', sans-serif;
     text-transform: uppercase; 
 }
@@ -490,8 +487,8 @@ p {
 	justify-content: center;
 	align-items: flex-start;
     padding: 0; 
-    width:350px; 
-    height:350px; 
+    width:270px; 
+    height:300px; 
 }
 
 #section0 p{
@@ -502,7 +499,7 @@ p {
     align-content: stretch;
     color: darkblue;
     font-weight: 700vh; 
-    font-size:200%;
+    font-size:175%;
     font-family: 'Roboto Slab', sans-serif;
 }
 
@@ -521,11 +518,11 @@ p {
 	align-items: center;
     align-content: center;
     margin: 0 auto;
-    padding: 10% 0 5% 0;
+    padding: 10% 0 1% 0;
 	width: 100%;
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700vh; 
-    font-size:450%;
+    font-size:375%;
     color: darkblue;
     text-transform: uppercase; 
 }
@@ -534,12 +531,11 @@ p {
     display: flex;
     vertical-align: top;
     text-align: center;
-    margin: 3% 0 0 2%;
+    margin: 1em 0 0 2em;
     justify-content: space-around;
     color: #333;
     font-weight: 700;
     font-size: 100%;
-
 }
 
 #slide1 .Task img{
@@ -570,26 +566,26 @@ p {
 	align-items: center;
     align-content: center;
     margin: 0 auto;
-    padding: 7.5% 0 5% 0;
+    padding: 10% 0 0 0;
 	width: 100%;
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700vh; 
-    font-size:500%;
+    font-size:400%;
     color:orange;
     text-transform: uppercase; 
 }
 
 #slide2 p{
     color:lightgrey;
-    font-size:150%;
-    padding: 2% 0 0 0;
+    font-size:1.5em;
+    padding: 3% 0 0 0;
 }
 
 .Task2{
     display: flex;
     vertical-align: top;
     text-align: center;
-    margin: 2% 0 0 2%;
+    margin: 4em 0 0 2em;
     justify-content: space-around;
     color: #333;
     font-weight: 700;
@@ -612,7 +608,7 @@ p {
 #slide3{
     background: url('img/16.jpg');
     width: 400px;
-    height: 70vh;
+    height: 65vh;
     background-size: cover;
     display: flex;
 }
@@ -624,11 +620,11 @@ p {
 	align-items: center;
     align-content: center;
     margin: 0 auto;
-    padding: 15% 0 10% 0;
+    padding: 10% 0 10% 0;
 	width: 100%;
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700vh; 
-    font-size:550%;
+    font-size:500%;
     color:whitesmoke;
     text-transform: uppercase; 
 } 
@@ -636,15 +632,15 @@ p {
 #slide3 p{
     color:gold;
     font-size:1.5em;
-    padding: 1% 0% 0% 0%;
+    padding: 2.5% 0% 2.5% 0%;
 }
 
 #slide3 .Task3 p{
     font-family: 'Roboto Slab', sans-serif;
     color:#333;
-    font-size:120%;
+    font-size:100%;
     font-weight: 500%;
-    padding: 2% 7% 2% 7%; 
+    padding: 5vh 7vh 2vh 7vh; 
 }
 
 #slide4{
@@ -657,26 +653,24 @@ p {
     font: 35px 'Oswald', sans-serif;
     font-weight: 400;
     font-size:450%;
-    padding: 5% 5% 2% 5%; 
-
+    padding: 4.5vh 5vh 0vh 5vh; 
 }
 
 .Task4{
 
     flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: space-between;   
+	justify-content: space-between;
     color: #333;
     font-weight: 700;
     font-size: 100%;
     float: right;
     margin-right: 20%;
-
 }
 
 #slide4 .Task4 img{
-    margin: 2px 5px 5px 5px;
-    height: 70px;
+    margin: 2px 5px 0px 5px;
+    height: 60px;
     width: 180px;
     border: 1px solid blue;
     transition: all 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
@@ -739,16 +733,16 @@ p {
     font-size: 500%;
     font-weight: 500;
     color: darkblue;
-    margin: 5% 0 5% 0;
+    margin: 7.5% 0 5% 0;
 }
 
 #section3 .org{
-    font: 150% 'Oswald', sans-serif;
+    font: 125% 'Oswald', sans-serif;
     font-weight: 400; 
     color: #282828;   
     display: flex;
     justify-content: flex-start;
-    margin: 1% 0% 1% 1%;
+    margin: 1% 0% 0% 1%;
 }
 
 #section3 p{
@@ -757,6 +751,6 @@ p {
     color: #282828;   
     display: flex;
     justify-content: center;
-    margin: 5% 0% 1% 3%;
+    margin: 3% 0% 1% 3%;
 }
 
